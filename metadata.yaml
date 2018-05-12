@@ -1,5 +1,5 @@
 _repo: Contes-Fran-ais_12949
-_version: 0.0.1
+_version: 0.1.0
 contributor:
   contributors:
   - agent_name: Coppée, François
@@ -14,7 +14,7 @@ contributor:
     wikipedia: http://en.wikipedia.org/wiki/François_Coppée
   - agent_name: Maupassant, Guy de
     alias: De Maupassant, Guy
-    birthdate: &id001 1850
+    birthdate: 1850
     deathdate: 1893
     gutenberg_agent_id: '306'
     url: http://www.gutenberg.org/2009/agents/306
@@ -40,7 +40,7 @@ contributor:
     - Balzac, H. de (Honoré de)
     - Balzac, Honore de
     birthdate: 1799
-    deathdate: *id001
+    deathdate: 1850
     gutenberg_agent_id: '251'
     url: http://www.gutenberg.org/2009/agents/251
     wikipedia:
@@ -74,6 +74,9 @@ contributor:
     gutenberg_agent_id: '920'
     url: http://www.gutenberg.org/2009/agents/920
     wikipedia: http://en.wikipedia.org/wiki/Prosper_Mérimée
+covers:
+- cover_type: generated
+  image_path: cover.png
 creator:
   editor:
     agent_name: Buffum, Douglas Labaree
@@ -81,6 +84,8 @@ creator:
     gutenberg_agent_id: '4734'
     url: http://www.gutenberg.org/2009/agents/4734
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/12949#Contes-Fran-ais
 gutenberg_bookshelf:
 - FR Nouvelles
 - FR Education et Enseignement
